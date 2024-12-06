@@ -1,0 +1,207 @@
+---
+title: "neon"
+output: html_document
+date: "2024-10-31"
+---
+
+```{r setup, include=FALSE}
+
+library(ggplot2)
+library(neonUtilities)
+library(neonOS)
+library(geoNEON)
+library(magrittr)
+library(dplyr)
+library(lubridate)
+library(fs)
+library(here)
+library(lidR)
+library(raster)
+library(sf)
+
+here::i_am('neon.Rmd')
+options(stringsAsFactors=F)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# vegetation survey
+vst <- loadByProduct(dpID="DP1.10098.001", 
+                     site="BART",
+                     check.size=F)
+# get tree locations
+vst.loc <- getLocTOS(data=vst$vst_mappingandtagging,
+                     dataProd="vst_mappingandtagging")
+
+# join tree locations to veg survey tree table
+veg <- joinTableNEON(vst$vst_apparentindividual, 
+                       vst.loc, 
+                       name1="vst_apparentindividual",
+                       name2="vst_mappingandtagging")
+
+# get plot locations
+plot_locs <- vst$vst_perplotperyear %>%
+    select(plotID, easting, northing) %>%
+    rename("easting_plot"=easting, "northing_plot"=northing) %>%
+    group_by(plotID) %>%
+    slice_head(n=1) %>%
+    ungroup() 
+  
+veg$date.x <- ymd(veg$date.x)
+
+# filter out missing values
+veg_filtered <- veg %>% filter(grepl("Live", plantStatus)) %>%
+    filter(!grepl("\\d\\d\\d\\d\\d[A-Z]", individualID)) %>%
+    filter(!is.na(height)) %>%
+    filter(!is.na(taxonID)) %>%
+    filter(!is.na(adjNorthing)) %>%
+    filter(!is.na(date.x)) %>%
+    filter(height > 2) %>%
+    # filter(date.x < ymd("2021-01-01")) %>%
+    select(plotID, individualID, adjEasting, adjNorthing, taxonID, height, ninetyCrownDiameter, canopyPosition, adjCoordinateUncertainty, utmZone) %>%
+    rename("easting_tree" = adjEasting, "northing_tree" = adjNorthing) %>%
+    arrange(-height) %>%
+    group_by(individualID) %>%
+    slice_head(n=1) %>%
+    ungroup() %>%
+    left_join(plot_locs, by="plotID", keep=FALSE)
+
+
+```
+
+```{r}
+for (t in unique(veg_filtered$taxonID)){
+  print(t)
+  print(nrow(veg_filtered[veg_filtered$taxonID==t,]))
+        }
+```
+
+```{r}
+write.csv(veg_filtered,'neon_trees_BART.csv')
+```
+
+
+```{r}
+p <- "HARV_014"
+
+symbols(veg$adjEasting[which(veg$plotID==p)], 
+        veg$adjNorthing[which(veg$plotID==p)], 
+        circles=veg$stemDiameter[which(veg$plotID==p)]/100/2, 
+        inches=F, xlab="Easting", ylab="Northing")
+
+symbols(veg$adjEasting[which(veg$plotID==p)], 
+        veg$adjNorthing[which(veg$plotID==p)], 
+        circles=veg$adjCoordinateUncertainty[which(veg$plotID==p)], 
+        inches=F, add=T, fg="lightblue")
+
+text(vst.loc$adjEasting[which(vst.loc$plotID==p)], 
+     vst.loc$adjNorthing[which(vst.loc$plotID==p)],
+     labels=vst.loc$taxonID[which(vst.loc$plotID==p)],
+     cex=0.5)
+```
+
+```{r}
+# download reflectance data
+byTileAOP(dpID="DP3.30006.001", site="BART", 
+            year="2019", easting=veg_filtered$easting_tree,
+            northing=veg_filtered$northing_tree,
+            buffer=20,
+            check.size=FALSE)
+  
+
+```
+
+### CHM
+
+```{r}
+sitename = "HARV"
+year = "2019"
+
+veg_filtered = read.csv(here('output', sitename, paste0('neon_trees_',sitename,'.csv')))
+
+# chm data
+
+
+  byTileAOP(dpID="DP3.30015.001", site=sitename, 
+            year=year, easting=veg_filtered$easting_tree,
+            northing=veg_filtered$northing_tree,
+            buffer=20,
+            check.size=FALSE)
+```
+
+### Move downloaded files to CHM directory
+
+```{r}
+dt <- dir_tree()
+
+chm_files <- dt[grepl("*_CHM.tif", dt)]
+
+
+file_move(chm_files, "CHM")
+
+```
+
+```{r}
+get_ttops <- function() {
+  all_chm <- list.files("CHM", full.names=TRUE)
+  all_chm <- all_chm[grepl(paste0('*',sitename,'*'),all_chm)]
+  frames <- vector(mode="list", length=length(all_chm))
+  
+  for (i in 1:length(all_chm)) {
+    chm <- raster(all_chm[i])
+    ttops <- locate_trees(chm, lmf(ws=4, shape='circular'),  uniqueness = "bitmerge")
+    frames[[i]] <- ttops
+  }
+  
+  return(bind_rows(frames))
+}
+```
+
+`
+### Get tree tops from CHM
+
+```{r}
+
+all_ttops <- get_ttops()
+
+st_write(all_ttops, here('output', sitename,paste0("tree_tops_",sitename,".gpkg")))
+```
+
+### Add CHM difference to tree csv
+
+```{r}
+get_chm_dif <- function(veg_filtered){
+  all_chm <- list.files("CHM", full.names=TRUE)
+  all_chm <- all_chm[grepl(paste0('*',sitename,'*'),all_chm)]
+  frames <- vector(mode="list", length=length(all_chm))
+  
+  for (i in 1:length(all_chm)) {
+    chm <- raster(all_chm[i])
+    vegsub <- veg_filtered[which(veg_filtered$easting_tree >= extent(chm)[1] &
+                                   veg_filtered$easting_tree <= extent(chm)[2] &
+                                   veg_filtered$northing_tree >= extent(chm)[3] & 
+                                   veg_filtered$northing_tree <= extent(chm)[4]),]
+    if (nrow(vegsub)>0){
+      vegsub$chm_height <- extract(chm, 
+                                   cbind(vegsub$easting_tree,
+                                         vegsub$northing_tree),
+                                   buffer=vegsub$adjCoordinateUncertainty, 
+                                   fun=max)
+      vegsub$chm_dif <- abs(vegsub$chm_height-vegsub$height)
+      frames[[i]] <- vegsub
+    }
+  }
+  
+  return(bind_rows(frames))
+}
+```
+
+```{r}
+veg_filtered <- get_chm_dif(veg_filtered)
+```
+
+```{r}
+write.csv(veg_filtered,here('output',sitename,paste0('neon_trees_',sitename,'.csv')))
+```
+
