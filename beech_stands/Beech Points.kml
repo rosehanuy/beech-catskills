@@ -1,0 +1,2945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Beech Points.kml</name>
+	<Schema name="Points" id="Points">
+		<SimpleField type="string" name="Code"></SimpleField>
+		<SimpleField type="string" name="Easting"></SimpleField>
+		<SimpleField type="string" name="Northing"></SimpleField>
+		<SimpleField type="string" name="Elevation"></SimpleField>
+		<SimpleField type="string" name="Longitude"></SimpleField>
+		<SimpleField type="string" name="Latitude"></SimpleField>
+		<SimpleField type="string" name="Ellipsoidal height"></SimpleField>
+		<SimpleField type="string" name="Origin"></SimpleField>
+		<SimpleField type="string" name="Easting RMS"></SimpleField>
+		<SimpleField type="string" name="Northing RMS"></SimpleField>
+		<SimpleField type="string" name="Elevation RMS"></SimpleField>
+		<SimpleField type="string" name="Lateral RMS"></SimpleField>
+		<SimpleField type="string" name="Antenna height"></SimpleField>
+		<SimpleField type="string" name="Antenna height units"></SimpleField>
+		<SimpleField type="string" name="Solution status"></SimpleField>
+		<SimpleField type="string" name="Averaging start"></SimpleField>
+		<SimpleField type="string" name="Averaging end"></SimpleField>
+		<SimpleField type="string" name="Samples"></SimpleField>
+		<SimpleField type="string" name="GDOP"></SimpleField>
+		<SimpleField type="string" name="Base easting"></SimpleField>
+		<SimpleField type="string" name="Base northing"></SimpleField>
+		<SimpleField type="string" name="Base elevation"></SimpleField>
+		<SimpleField type="string" name="Base longitude"></SimpleField>
+		<SimpleField type="string" name="Base latitude"></SimpleField>
+		<SimpleField type="string" name="Base ellipsoidal height"></SimpleField>
+		<SimpleField type="string" name="Baseline"></SimpleField>
+		<SimpleField type="string" name="Mount point"></SimpleField>
+		<SimpleField type="string" name="CS name"></SimpleField>
+		<SimpleField type="string" name="GPS Satellites"></SimpleField>
+		<SimpleField type="string" name="GLONASS Satellites"></SimpleField>
+		<SimpleField type="string" name="Galileo Satellites"></SimpleField>
+		<SimpleField type="string" name="BeiDou Satellites"></SimpleField>
+		<SimpleField type="string" name="QZSS Satellites"></SimpleField>
+	</Schema>
+	<Folder>
+		<name>Beech Points</name>
+		<open>1</open>
+		<Placemark>
+			<name>east jewett 1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Easting">178130.217</SimpleData>
+					<SimpleData name="Northing">380038.343</SimpleData>
+					<SimpleData name="Elevation">1.000</SimpleData>
+					<SimpleData name="Longitude">-74.15907000</SimpleData>
+					<SimpleData name="Latitude">42.25554500</SimpleData>
+					<SimpleData name="Ellipsoidal height">1.000</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.15907,42.255545,1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hunter 1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Easting">176272.758</SimpleData>
+					<SimpleData name="Northing">375518.889</SimpleData>
+					<SimpleData name="Elevation">1.000</SimpleData>
+					<SimpleData name="Longitude">-74.18178600</SimpleData>
+					<SimpleData name="Latitude">42.21491900</SimpleData>
+					<SimpleData name="Ellipsoidal height">1.000</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.181786,42.214919,1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hunter 2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Easting">183322.298</SimpleData>
+					<SimpleData name="Northing">368796.870</SimpleData>
+					<SimpleData name="Elevation">1.000</SimpleData>
+					<SimpleData name="Longitude">-74.09678900</SimpleData>
+					<SimpleData name="Latitude">42.15412900</SimpleData>
+					<SimpleData name="Ellipsoidal height">1.000</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.096789,42.154129,1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>elka park 1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Easting">180894.081</SimpleData>
+					<SimpleData name="Northing">367807.870</SimpleData>
+					<SimpleData name="Elevation">1.000</SimpleData>
+					<SimpleData name="Longitude">-74.12622300</SimpleData>
+					<SimpleData name="Latitude">42.14532400</SimpleData>
+					<SimpleData name="Ellipsoidal height">1.000</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.126223,42.145324,1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 36.7 2nd stem 22.4</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181065.383</SimpleData>
+					<SimpleData name="Northing">367942.490</SimpleData>
+					<SimpleData name="Elevation">583.477</SimpleData>
+					<SimpleData name="Longitude">-74.12414334</SimpleData>
+					<SimpleData name="Latitude">42.14652928</SimpleData>
+					<SimpleData name="Ellipsoidal height">583.477</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.552</SimpleData>
+					<SimpleData name="Northing RMS">0.533</SimpleData>
+					<SimpleData name="Elevation RMS">0.984</SimpleData>
+					<SimpleData name="Lateral RMS">0.767</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:18:41.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:18:51.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">51</SimpleData>
+					<SimpleData name="GDOP">2.6</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12414334041181,42.1465292817059,583.476707843137</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 30.4</name>
+			<description>stem and crown arch sourheast. heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181069.419</SimpleData>
+					<SimpleData name="Northing">367939.784</SimpleData>
+					<SimpleData name="Elevation">591.439</SimpleData>
+					<SimpleData name="Longitude">-74.12409466</SimpleData>
+					<SimpleData name="Latitude">42.14650476</SimpleData>
+					<SimpleData name="Ellipsoidal height">591.439</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.531</SimpleData>
+					<SimpleData name="Northing RMS">0.392</SimpleData>
+					<SimpleData name="Elevation RMS">1.232</SimpleData>
+					<SimpleData name="Lateral RMS">0.659</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:20:35.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:20:45.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">51</SimpleData>
+					<SimpleData name="GDOP">2.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1240946586275,42.1465047587059,591.43885882353</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 27.3</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181071.086</SimpleData>
+					<SimpleData name="Northing">367951.061</SimpleData>
+					<SimpleData name="Elevation">588.872</SimpleData>
+					<SimpleData name="Longitude">-74.12407390</SimpleData>
+					<SimpleData name="Latitude">42.14660623</SimpleData>
+					<SimpleData name="Ellipsoidal height">588.872</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.647</SimpleData>
+					<SimpleData name="Northing RMS">0.650</SimpleData>
+					<SimpleData name="Elevation RMS">2.046</SimpleData>
+					<SimpleData name="Lateral RMS">0.917</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:21:52.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:22:02.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">51</SimpleData>
+					<SimpleData name="GDOP">3.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1240738953333,42.1466062253137,588.872494117647</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 18.8</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181064.945</SimpleData>
+					<SimpleData name="Northing">367946.797</SimpleData>
+					<SimpleData name="Elevation">597.668</SimpleData>
+					<SimpleData name="Longitude">-74.12414841</SimpleData>
+					<SimpleData name="Latitude">42.14656807</SimpleData>
+					<SimpleData name="Ellipsoidal height">597.668</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.917</SimpleData>
+					<SimpleData name="Northing RMS">0.701</SimpleData>
+					<SimpleData name="Elevation RMS">1.574</SimpleData>
+					<SimpleData name="Lateral RMS">1.154</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:23:03.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:23:13.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">51</SimpleData>
+					<SimpleData name="GDOP">2.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1241484117059,42.1465680741765,597.668321568627</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 31.4</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181064.941</SimpleData>
+					<SimpleData name="Northing">367945.959</SimpleData>
+					<SimpleData name="Elevation">591.913</SimpleData>
+					<SimpleData name="Longitude">-74.12414851</SimpleData>
+					<SimpleData name="Latitude">42.14656054</SimpleData>
+					<SimpleData name="Ellipsoidal height">591.913</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.844</SimpleData>
+					<SimpleData name="Northing RMS">0.960</SimpleData>
+					<SimpleData name="Elevation RMS">1.521</SimpleData>
+					<SimpleData name="Lateral RMS">1.278</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:24:54.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:25:24.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1241485061589,42.1465605375033,591.912521854304</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 31.6</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181062.128</SimpleData>
+					<SimpleData name="Northing">367946.461</SimpleData>
+					<SimpleData name="Elevation">595.471</SimpleData>
+					<SimpleData name="Longitude">-74.12418252</SimpleData>
+					<SimpleData name="Latitude">42.14656517</SimpleData>
+					<SimpleData name="Ellipsoidal height">595.471</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.680</SimpleData>
+					<SimpleData name="Northing RMS">0.309</SimpleData>
+					<SimpleData name="Elevation RMS">1.051</SimpleData>
+					<SimpleData name="Lateral RMS">0.747</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:26:21.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:26:51.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12418251857621,42.146565167947,595.471223178808</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 20.2</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181060.479</SimpleData>
+					<SimpleData name="Northing">367941.682</SimpleData>
+					<SimpleData name="Elevation">590.996</SimpleData>
+					<SimpleData name="Longitude">-74.12420272</SimpleData>
+					<SimpleData name="Latitude">42.14652221</SimpleData>
+					<SimpleData name="Ellipsoidal height">590.996</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.819</SimpleData>
+					<SimpleData name="Northing RMS">0.889</SimpleData>
+					<SimpleData name="Elevation RMS">1.121</SimpleData>
+					<SimpleData name="Lateral RMS">1.209</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:27:32.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:28:02.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12420271907951,42.1465222064371,590.9957523178811</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 23.3</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181057.773</SimpleData>
+					<SimpleData name="Northing">367945.371</SimpleData>
+					<SimpleData name="Elevation">590.815</SimpleData>
+					<SimpleData name="Longitude">-74.12423526</SimpleData>
+					<SimpleData name="Latitude">42.14655553</SimpleData>
+					<SimpleData name="Ellipsoidal height">590.815</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.138</SimpleData>
+					<SimpleData name="Northing RMS">1.369</SimpleData>
+					<SimpleData name="Elevation RMS">3.787</SimpleData>
+					<SimpleData name="Lateral RMS">1.780</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:28:29.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:28:59.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242352604305,42.1465555276689,590.815406622517</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 29.9</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181058.553</SimpleData>
+					<SimpleData name="Northing">367936.786</SimpleData>
+					<SimpleData name="Elevation">589.441</SimpleData>
+					<SimpleData name="Longitude">-74.12422628</SimpleData>
+					<SimpleData name="Latitude">42.14647820</SimpleData>
+					<SimpleData name="Ellipsoidal height">589.441</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.011</SimpleData>
+					<SimpleData name="Northing RMS">0.316</SimpleData>
+					<SimpleData name="Elevation RMS">1.353</SimpleData>
+					<SimpleData name="Lateral RMS">1.060</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:30:43.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:31:13.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242262823046,42.1464781959934,589.44088807947</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 24.0</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181062.228</SimpleData>
+					<SimpleData name="Northing">367941.546</SimpleData>
+					<SimpleData name="Elevation">589.835</SimpleData>
+					<SimpleData name="Longitude">-74.12418156</SimpleData>
+					<SimpleData name="Latitude">42.14652091</SimpleData>
+					<SimpleData name="Ellipsoidal height">589.835</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.525</SimpleData>
+					<SimpleData name="Northing RMS">0.372</SimpleData>
+					<SimpleData name="Elevation RMS">1.054</SimpleData>
+					<SimpleData name="Lateral RMS">0.643</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:31:34.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:32:04.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.124181564808,42.146520908894,589.835225165563</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 23.7</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181060.396</SimpleData>
+					<SimpleData name="Northing">367935.065</SimpleData>
+					<SimpleData name="Elevation">591.823</SimpleData>
+					<SimpleData name="Longitude">-74.12420407</SimpleData>
+					<SimpleData name="Latitude">42.14646263</SimpleData>
+					<SimpleData name="Ellipsoidal height">591.823</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.532</SimpleData>
+					<SimpleData name="Northing RMS">0.418</SimpleData>
+					<SimpleData name="Elevation RMS">1.324</SimpleData>
+					<SimpleData name="Lateral RMS">0.676</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:32:45.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:33:15.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12420407414569,42.146462625702,591.823468211921</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 14.8</name>
+			<description>heavy scale and neonectria</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181062.127</SimpleData>
+					<SimpleData name="Northing">367932.529</SimpleData>
+					<SimpleData name="Elevation">591.295</SimpleData>
+					<SimpleData name="Longitude">-74.12418327</SimpleData>
+					<SimpleData name="Latitude">42.14643973</SimpleData>
+					<SimpleData name="Ellipsoidal height">591.295</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.478</SimpleData>
+					<SimpleData name="Northing RMS">0.392</SimpleData>
+					<SimpleData name="Elevation RMS">1.408</SimpleData>
+					<SimpleData name="Lateral RMS">0.618</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:33:49.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:34:19.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1241832668013,42.1464397284636,591.294631125827</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 34.2</name>
+			<description>fork stem one dead one alive</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181065.531</SimpleData>
+					<SimpleData name="Northing">367933.928</SimpleData>
+					<SimpleData name="Elevation">592.851</SimpleData>
+					<SimpleData name="Longitude">-74.12414202</SimpleData>
+					<SimpleData name="Latitude">42.14645219</SimpleData>
+					<SimpleData name="Ellipsoidal height">592.851</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.587</SimpleData>
+					<SimpleData name="Northing RMS">1.008</SimpleData>
+					<SimpleData name="Elevation RMS">1.414</SimpleData>
+					<SimpleData name="Lateral RMS">1.167</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:35:29.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:35:59.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.5</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12414201526489,42.1464521860265,592.850975496689</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>sugar mappe dbh 24.4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181072.423</SimpleData>
+					<SimpleData name="Northing">367936.851</SimpleData>
+					<SimpleData name="Elevation">597.733</SimpleData>
+					<SimpleData name="Longitude">-74.12405847</SimpleData>
+					<SimpleData name="Latitude">42.14647823</SimpleData>
+					<SimpleData name="Ellipsoidal height">597.733</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.651</SimpleData>
+					<SimpleData name="Northing RMS">2.757</SimpleData>
+					<SimpleData name="Elevation RMS">1.313</SimpleData>
+					<SimpleData name="Lateral RMS">2.833</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:36:36.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:37:06.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1240584732252,42.1464782326093,597.733175496689</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>paper birch dbh 25.3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181067.285</SimpleData>
+					<SimpleData name="Northing">367932.182</SimpleData>
+					<SimpleData name="Elevation">592.363</SimpleData>
+					<SimpleData name="Longitude">-74.12412089</SimpleData>
+					<SimpleData name="Latitude">42.14643640</SimpleData>
+					<SimpleData name="Ellipsoidal height">592.363</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.735</SimpleData>
+					<SimpleData name="Northing RMS">0.489</SimpleData>
+					<SimpleData name="Elevation RMS">1.639</SimpleData>
+					<SimpleData name="Lateral RMS">0.883</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:37:35.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:38:05.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.7</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12412088731131,42.1464364029139,592.363113245033</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>sugar maple dbh 42</name>
+			<description>fallen but probably standing at date of aviris</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181070.149</SimpleData>
+					<SimpleData name="Northing">367922.508</SimpleData>
+					<SimpleData name="Elevation">588.977</SimpleData>
+					<SimpleData name="Longitude">-74.12408675</SimpleData>
+					<SimpleData name="Latitude">42.14634919</SimpleData>
+					<SimpleData name="Ellipsoidal height">588.977</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.319</SimpleData>
+					<SimpleData name="Northing RMS">0.263</SimpleData>
+					<SimpleData name="Elevation RMS">0.774</SimpleData>
+					<SimpleData name="Lateral RMS">0.414</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:40:04.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:40:34.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12408675347019,42.1463491871324,588.976854304636</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 57.7</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181070.927</SimpleData>
+					<SimpleData name="Northing">367919.307</SimpleData>
+					<SimpleData name="Elevation">592.026</SimpleData>
+					<SimpleData name="Longitude">-74.12407751</SimpleData>
+					<SimpleData name="Latitude">42.14632033</SimpleData>
+					<SimpleData name="Ellipsoidal height">592.026</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.540</SimpleData>
+					<SimpleData name="Northing RMS">0.910</SimpleData>
+					<SimpleData name="Elevation RMS">1.558</SimpleData>
+					<SimpleData name="Lateral RMS">1.058</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:42:30.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:43:00.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.6</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1240775095762,42.1463203321523,592.025604635762</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 40.0</name>
+			<description>dead</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181066.673</SimpleData>
+					<SimpleData name="Northing">367917.662</SimpleData>
+					<SimpleData name="Elevation">583.471</SimpleData>
+					<SimpleData name="Longitude">-74.12412906</SimpleData>
+					<SimpleData name="Latitude">42.14630569</SimpleData>
+					<SimpleData name="Ellipsoidal height">583.471</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.033</SimpleData>
+					<SimpleData name="Northing RMS">1.015</SimpleData>
+					<SimpleData name="Elevation RMS">1.774</SimpleData>
+					<SimpleData name="Lateral RMS">1.448</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:43:55.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:44:25.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1241290555497,42.1463056945232,583.470639072848</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 26.1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181056.670</SimpleData>
+					<SimpleData name="Northing">367918.359</SimpleData>
+					<SimpleData name="Elevation">584.803</SimpleData>
+					<SimpleData name="Longitude">-74.12425004</SimpleData>
+					<SimpleData name="Latitude">42.14631236</SimpleData>
+					<SimpleData name="Ellipsoidal height">584.803</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.670</SimpleData>
+					<SimpleData name="Northing RMS">0.673</SimpleData>
+					<SimpleData name="Elevation RMS">1.210</SimpleData>
+					<SimpleData name="Lateral RMS">0.949</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:58:36.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 10:59:06.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242500442781,42.1463123593774,584.802678807947</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 27.0</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181060.740</SimpleData>
+					<SimpleData name="Northing">367917.952</SimpleData>
+					<SimpleData name="Elevation">593.195</SimpleData>
+					<SimpleData name="Longitude">-74.12420082</SimpleData>
+					<SimpleData name="Latitude">42.14630853</SimpleData>
+					<SimpleData name="Ellipsoidal height">593.195</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.895</SimpleData>
+					<SimpleData name="Northing RMS">0.905</SimpleData>
+					<SimpleData name="Elevation RMS">1.165</SimpleData>
+					<SimpleData name="Lateral RMS">1.273</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 10:59:40.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:00:10.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242008206623,42.1463085333576,593.195098675497</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 21.5 2nd stem 12.3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181059.382</SimpleData>
+					<SimpleData name="Northing">367919.535</SimpleData>
+					<SimpleData name="Elevation">589.568</SimpleData>
+					<SimpleData name="Longitude">-74.12421718</SimpleData>
+					<SimpleData name="Latitude">42.14632285</SimpleData>
+					<SimpleData name="Ellipsoidal height">589.568</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.363</SimpleData>
+					<SimpleData name="Northing RMS">0.583</SimpleData>
+					<SimpleData name="Elevation RMS">0.910</SimpleData>
+					<SimpleData name="Lateral RMS">0.687</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:00:48.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:01:18.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">1.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242171765828,42.1463228479272,589.56832384106</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 30.3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181055.605</SimpleData>
+					<SimpleData name="Northing">367921.084</SimpleData>
+					<SimpleData name="Elevation">590.453</SimpleData>
+					<SimpleData name="Longitude">-74.12426279</SimpleData>
+					<SimpleData name="Latitude">42.14633694</SimpleData>
+					<SimpleData name="Ellipsoidal height">590.453</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.439</SimpleData>
+					<SimpleData name="Northing RMS">0.585</SimpleData>
+					<SimpleData name="Elevation RMS">0.649</SimpleData>
+					<SimpleData name="Lateral RMS">0.731</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:01:44.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:02:14.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">1.6</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242627918145,42.146336942159,590.452733112583</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 22.1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181055.336</SimpleData>
+					<SimpleData name="Northing">367928.915</SimpleData>
+					<SimpleData name="Elevation">592.983</SimpleData>
+					<SimpleData name="Longitude">-74.12426563</SimpleData>
+					<SimpleData name="Latitude">42.14640746</SimpleData>
+					<SimpleData name="Ellipsoidal height">592.983</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.535</SimpleData>
+					<SimpleData name="Northing RMS">0.510</SimpleData>
+					<SimpleData name="Elevation RMS">0.780</SimpleData>
+					<SimpleData name="Lateral RMS">0.739</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:03:14.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:03:44.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">1.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12426562654301,42.146407459245,592.982559602649</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 23.4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181056.690</SimpleData>
+					<SimpleData name="Northing">367928.034</SimpleData>
+					<SimpleData name="Elevation">589.541</SimpleData>
+					<SimpleData name="Longitude">-74.12424929</SimpleData>
+					<SimpleData name="Latitude">42.14639947</SimpleData>
+					<SimpleData name="Ellipsoidal height">589.541</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.379</SimpleData>
+					<SimpleData name="Northing RMS">0.419</SimpleData>
+					<SimpleData name="Elevation RMS">1.554</SimpleData>
+					<SimpleData name="Lateral RMS">0.566</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:04:09.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:04:39.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">1.7</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242492922119,42.1463994711325,589.540847019868</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 17.6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181057.169</SimpleData>
+					<SimpleData name="Northing">367935.445</SimpleData>
+					<SimpleData name="Elevation">593.593</SimpleData>
+					<SimpleData name="Longitude">-74.12424310</SimpleData>
+					<SimpleData name="Latitude">42.14646618</SimpleData>
+					<SimpleData name="Ellipsoidal height">593.593</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.815</SimpleData>
+					<SimpleData name="Northing RMS">0.717</SimpleData>
+					<SimpleData name="Elevation RMS">1.030</SimpleData>
+					<SimpleData name="Lateral RMS">1.086</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:05:39.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:06:09.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242431007153,42.1464661750265,593.592838410596</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 24.3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181057.229</SimpleData>
+					<SimpleData name="Northing">367936.728</SimpleData>
+					<SimpleData name="Elevation">590.308</SimpleData>
+					<SimpleData name="Longitude">-74.12424231</SimpleData>
+					<SimpleData name="Latitude">42.14647773</SimpleData>
+					<SimpleData name="Ellipsoidal height">590.308</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.050</SimpleData>
+					<SimpleData name="Northing RMS">1.864</SimpleData>
+					<SimpleData name="Elevation RMS">1.326</SimpleData>
+					<SimpleData name="Lateral RMS">2.139</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:06:34.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:07:04.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.0</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1242423051192,42.1464777302781,590.307545033113</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 27.4</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181062.183</SimpleData>
+					<SimpleData name="Northing">367946.076</SimpleData>
+					<SimpleData name="Elevation">591.913</SimpleData>
+					<SimpleData name="Longitude">-74.12418187</SimpleData>
+					<SimpleData name="Latitude">42.14656169</SimpleData>
+					<SimpleData name="Ellipsoidal height">591.913</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.069</SimpleData>
+					<SimpleData name="Northing RMS">1.106</SimpleData>
+					<SimpleData name="Elevation RMS">2.659</SimpleData>
+					<SimpleData name="Lateral RMS">1.538</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:08:25.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:08:55.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.0</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1241818699735,42.146561693947,591.91313576159</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 44.4</name>
+			<description>non stand indovidual</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181045.930</SimpleData>
+					<SimpleData name="Northing">367956.415</SimpleData>
+					<SimpleData name="Elevation">601.116</SimpleData>
+					<SimpleData name="Longitude">-74.12437796</SimpleData>
+					<SimpleData name="Latitude">42.14665543</SimpleData>
+					<SimpleData name="Ellipsoidal height">601.116</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.521</SimpleData>
+					<SimpleData name="Northing RMS">3.019</SimpleData>
+					<SimpleData name="Elevation RMS">1.821</SimpleData>
+					<SimpleData name="Lateral RMS">3.381</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:12:17.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:12:47.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">4.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1243779572782,42.146655431543,601.1159490066231</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 37.8</name>
+			<description>non stand indovidual-dead</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181040.459</SimpleData>
+					<SimpleData name="Northing">367953.303</SimpleData>
+					<SimpleData name="Elevation">598.055</SimpleData>
+					<SimpleData name="Longitude">-74.12444432</SimpleData>
+					<SimpleData name="Latitude">42.14662763</SimpleData>
+					<SimpleData name="Ellipsoidal height">598.055</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.880</SimpleData>
+					<SimpleData name="Northing RMS">0.533</SimpleData>
+					<SimpleData name="Elevation RMS">1.031</SimpleData>
+					<SimpleData name="Lateral RMS">1.029</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:14:22.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:14:52.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12444431571519,42.146627625437,598.055023178808</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 38.5</name>
+			<description>non stand indovidual</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181046.594</SimpleData>
+					<SimpleData name="Northing">367961.799</SimpleData>
+					<SimpleData name="Elevation">595.923</SimpleData>
+					<SimpleData name="Longitude">-74.12436965</SimpleData>
+					<SimpleData name="Latitude">42.14670387</SimpleData>
+					<SimpleData name="Ellipsoidal height">595.923</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.116</SimpleData>
+					<SimpleData name="Northing RMS">0.847</SimpleData>
+					<SimpleData name="Elevation RMS">1.946</SimpleData>
+					<SimpleData name="Lateral RMS">1.401</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:16:05.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:16:35.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">10.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1243696450464,42.1467038742782,595.9234013245029</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hemlock dbh 61.1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181038.348</SimpleData>
+					<SimpleData name="Northing">367970.861</SimpleData>
+					<SimpleData name="Elevation">606.347</SimpleData>
+					<SimpleData name="Longitude">-74.12446892</SimpleData>
+					<SimpleData name="Latitude">42.14678579</SimpleData>
+					<SimpleData name="Ellipsoidal height">606.347</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.669</SimpleData>
+					<SimpleData name="Northing RMS">2.177</SimpleData>
+					<SimpleData name="Elevation RMS">2.203</SimpleData>
+					<SimpleData name="Lateral RMS">2.743</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:18:38.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:19:08.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">4.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.124468924947,42.1467857946292,606.346626490066</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hemlock dbh 68.4</name>
+			<description>crown snapped</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">181028.884</SimpleData>
+					<SimpleData name="Northing">367960.394</SimpleData>
+					<SimpleData name="Elevation">599.516</SimpleData>
+					<SimpleData name="Longitude">-74.12458398</SimpleData>
+					<SimpleData name="Latitude">42.14669193</SimpleData>
+					<SimpleData name="Ellipsoidal height">599.516</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">2.558</SimpleData>
+					<SimpleData name="Northing RMS">2.228</SimpleData>
+					<SimpleData name="Elevation RMS">4.147</SimpleData>
+					<SimpleData name="Lateral RMS">3.392</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:21:39.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:22:09.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">20.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1245839796557,42.1466919280994,599.515868211921</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 62.3</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180987.947</SimpleData>
+					<SimpleData name="Northing">367952.025</SimpleData>
+					<SimpleData name="Elevation">613.121</SimpleData>
+					<SimpleData name="Longitude">-74.12507971</SimpleData>
+					<SimpleData name="Latitude">42.14661820</SimpleData>
+					<SimpleData name="Ellipsoidal height">613.121</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.028</SimpleData>
+					<SimpleData name="Northing RMS">1.182</SimpleData>
+					<SimpleData name="Elevation RMS">1.437</SimpleData>
+					<SimpleData name="Lateral RMS">1.567</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:28:10.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:28:40.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1250797121854,42.1466181953444,613.120998013245</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 47.0</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180972.766</SimpleData>
+					<SimpleData name="Northing">367951.089</SimpleData>
+					<SimpleData name="Elevation">619.033</SimpleData>
+					<SimpleData name="Longitude">-74.12526343</SimpleData>
+					<SimpleData name="Latitude">42.14661037</SimpleData>
+					<SimpleData name="Ellipsoidal height">619.033</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.682</SimpleData>
+					<SimpleData name="Northing RMS">1.154</SimpleData>
+					<SimpleData name="Elevation RMS">1.655</SimpleData>
+					<SimpleData name="Lateral RMS">1.340</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:30:29.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:30:59.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">1.7</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1252634273377,42.1466103705828,619.033474172185</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hemlock 51.6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180961.609</SimpleData>
+					<SimpleData name="Northing">367956.311</SimpleData>
+					<SimpleData name="Elevation">612.053</SimpleData>
+					<SimpleData name="Longitude">-74.12539814</SimpleData>
+					<SimpleData name="Latitude">42.14665782</SimpleData>
+					<SimpleData name="Ellipsoidal height">612.053</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.409</SimpleData>
+					<SimpleData name="Northing RMS">0.921</SimpleData>
+					<SimpleData name="Elevation RMS">1.455</SimpleData>
+					<SimpleData name="Lateral RMS">1.684</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:32:54.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:33:24.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1253981373311,42.1466578239271,612.053053642384</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 40.9 second stem 29.7</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180964.853</SimpleData>
+					<SimpleData name="Northing">367962.546</SimpleData>
+					<SimpleData name="Elevation">613.198</SimpleData>
+					<SimpleData name="Longitude">-74.12535855</SimpleData>
+					<SimpleData name="Latitude">42.14671383</SimpleData>
+					<SimpleData name="Ellipsoidal height">613.198</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.936</SimpleData>
+					<SimpleData name="Northing RMS">0.546</SimpleData>
+					<SimpleData name="Elevation RMS">1.214</SimpleData>
+					<SimpleData name="Lateral RMS">1.084</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:34:38.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:35:08.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">4.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1253585543311,42.1467138328609,613.198332450331</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hemlock dbh 46.5</name>
+			<description>fallen</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180937.209</SimpleData>
+					<SimpleData name="Northing">367928.045</SimpleData>
+					<SimpleData name="Elevation">617.602</SimpleData>
+					<SimpleData name="Longitude">-74.12569484</SimpleData>
+					<SimpleData name="Latitude">42.14640430</SimpleData>
+					<SimpleData name="Ellipsoidal height">617.602</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.929</SimpleData>
+					<SimpleData name="Northing RMS">1.674</SimpleData>
+					<SimpleData name="Elevation RMS">1.950</SimpleData>
+					<SimpleData name="Lateral RMS">1.914</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:47:28.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:47:58.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">11.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12569484353639,42.1464042988742,617.602120529801</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 40.3</name>
+			<description>fallen</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180941.369</SimpleData>
+					<SimpleData name="Northing">367940.828</SimpleData>
+					<SimpleData name="Elevation">612.185</SimpleData>
+					<SimpleData name="Longitude">-74.12564384</SimpleData>
+					<SimpleData name="Latitude">42.14651923</SimpleData>
+					<SimpleData name="Ellipsoidal height">612.185</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.111</SimpleData>
+					<SimpleData name="Northing RMS">0.897</SimpleData>
+					<SimpleData name="Elevation RMS">1.654</SimpleData>
+					<SimpleData name="Lateral RMS">1.428</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:50:07.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:50:37.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">6.0</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.125643836702,42.1465192264503,612.184581456954</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 32.6</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180949.664</SimpleData>
+					<SimpleData name="Northing">367943.856</SimpleData>
+					<SimpleData name="Elevation">623.792</SimpleData>
+					<SimpleData name="Longitude">-74.12554331</SimpleData>
+					<SimpleData name="Latitude">42.14654616</SimpleData>
+					<SimpleData name="Ellipsoidal height">623.792</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.957</SimpleData>
+					<SimpleData name="Northing RMS">0.973</SimpleData>
+					<SimpleData name="Elevation RMS">2.526</SimpleData>
+					<SimpleData name="Lateral RMS">1.364</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:53:02.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:53:32.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">25.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.125543312563,42.1465461558013,623.79181589404</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 35.2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180960.948</SimpleData>
+					<SimpleData name="Northing">367943.939</SimpleData>
+					<SimpleData name="Elevation">616.189</SimpleData>
+					<SimpleData name="Longitude">-74.12540679</SimpleData>
+					<SimpleData name="Latitude">42.14654646</SimpleData>
+					<SimpleData name="Ellipsoidal height">616.189</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.189</SimpleData>
+					<SimpleData name="Northing RMS">0.557</SimpleData>
+					<SimpleData name="Elevation RMS">2.367</SimpleData>
+					<SimpleData name="Lateral RMS">1.313</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:55:39.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:56:09.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.7</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12540679050331,42.1465464589669,616.188560264901</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 63.2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180971.123</SimpleData>
+					<SimpleData name="Northing">367934.041</SimpleData>
+					<SimpleData name="Elevation">609.127</SimpleData>
+					<SimpleData name="Longitude">-74.12528421</SimpleData>
+					<SimpleData name="Latitude">42.14645694</SimpleData>
+					<SimpleData name="Ellipsoidal height">609.127</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">3.374</SimpleData>
+					<SimpleData name="Northing RMS">2.534</SimpleData>
+					<SimpleData name="Elevation RMS">2.584</SimpleData>
+					<SimpleData name="Lateral RMS">4.220</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 11:58:20.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 11:58:50.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">29.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.125284211543,42.1464569405033,609.126830463576</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 33.2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180954.205</SimpleData>
+					<SimpleData name="Northing">367937.273</SimpleData>
+					<SimpleData name="Elevation">611.802</SimpleData>
+					<SimpleData name="Longitude">-74.12548872</SimpleData>
+					<SimpleData name="Latitude">42.14648671</SimpleData>
+					<SimpleData name="Ellipsoidal height">611.802</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.020</SimpleData>
+					<SimpleData name="Northing RMS">1.044</SimpleData>
+					<SimpleData name="Elevation RMS">2.154</SimpleData>
+					<SimpleData name="Lateral RMS">1.460</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 12:00:12.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 12:00:42.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1254887228079,42.1464867097616,611.80233178808</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 30.5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180952.109</SimpleData>
+					<SimpleData name="Northing">367935.644</SimpleData>
+					<SimpleData name="Elevation">617.670</SimpleData>
+					<SimpleData name="Longitude">-74.12551417</SimpleData>
+					<SimpleData name="Latitude">42.14647213</SimpleData>
+					<SimpleData name="Ellipsoidal height">617.670</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.856</SimpleData>
+					<SimpleData name="Northing RMS">0.896</SimpleData>
+					<SimpleData name="Elevation RMS">2.095</SimpleData>
+					<SimpleData name="Lateral RMS">1.239</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 12:01:22.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 12:01:52.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">7.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1255141721192,42.14647212751,617.670285430464</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 31.5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180952.550</SimpleData>
+					<SimpleData name="Northing">367935.043</SimpleData>
+					<SimpleData name="Elevation">610.603</SimpleData>
+					<SimpleData name="Longitude">-74.12550886</SimpleData>
+					<SimpleData name="Latitude">42.14646670</SimpleData>
+					<SimpleData name="Ellipsoidal height">610.603</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.148</SimpleData>
+					<SimpleData name="Northing RMS">1.147</SimpleData>
+					<SimpleData name="Elevation RMS">2.844</SimpleData>
+					<SimpleData name="Lateral RMS">1.623</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 12:02:34.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 12:03:04.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">11.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.12550886127821,42.1464666977285,610.603010596026</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 36.6 2nd stem 33.2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180947.793</SimpleData>
+					<SimpleData name="Northing">367928.902</SimpleData>
+					<SimpleData name="Elevation">616.191</SimpleData>
+					<SimpleData name="Longitude">-74.12556674</SimpleData>
+					<SimpleData name="Latitude">42.14641159</SimpleData>
+					<SimpleData name="Ellipsoidal height">616.191</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.798</SimpleData>
+					<SimpleData name="Northing RMS">1.451</SimpleData>
+					<SimpleData name="Elevation RMS">1.886</SimpleData>
+					<SimpleData name="Lateral RMS">1.656</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 12:03:49.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 12:04:19.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">4.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1255667410729,42.146411590404,616.1911609271521</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 31.5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180943.766</SimpleData>
+					<SimpleData name="Northing">367930.010</SimpleData>
+					<SimpleData name="Elevation">611.285</SimpleData>
+					<SimpleData name="Longitude">-74.12561541</SimpleData>
+					<SimpleData name="Latitude">42.14642173</SimpleData>
+					<SimpleData name="Ellipsoidal height">611.285</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.851</SimpleData>
+					<SimpleData name="Northing RMS">0.357</SimpleData>
+					<SimpleData name="Elevation RMS">2.760</SimpleData>
+					<SimpleData name="Lateral RMS">0.923</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 12:05:29.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 12:05:59.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.5</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1256154082517,42.1464217317748,611.284664238411</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hemlock dbh 51.0</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180969.196</SimpleData>
+					<SimpleData name="Northing">367920.427</SimpleData>
+					<SimpleData name="Elevation">615.913</SimpleData>
+					<SimpleData name="Longitude">-74.12530824</SimpleData>
+					<SimpleData name="Latitude">42.14633444</SimpleData>
+					<SimpleData name="Ellipsoidal height">615.913</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.437</SimpleData>
+					<SimpleData name="Northing RMS">0.489</SimpleData>
+					<SimpleData name="Elevation RMS">1.523</SimpleData>
+					<SimpleData name="Lateral RMS">0.656</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 12:15:03.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 12:15:33.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.6</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1253082444702,42.1463344427086,615.912823178808</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hemlock dbh 41.0</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180969.638</SimpleData>
+					<SimpleData name="Northing">367921.148</SimpleData>
+					<SimpleData name="Elevation">610.799</SimpleData>
+					<SimpleData name="Longitude">-74.12530286</SimpleData>
+					<SimpleData name="Latitude">42.14634092</SimpleData>
+					<SimpleData name="Ellipsoidal height">610.799</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.072</SimpleData>
+					<SimpleData name="Northing RMS">0.973</SimpleData>
+					<SimpleData name="Elevation RMS">2.109</SimpleData>
+					<SimpleData name="Lateral RMS">1.447</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 12:16:28.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 12:16:58.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">9.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1253028573046,42.1463409154371,610.799439735099</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hemlock dbh 61.9</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">180977.633</SimpleData>
+					<SimpleData name="Northing">367900.642</SimpleData>
+					<SimpleData name="Elevation">609.196</SimpleData>
+					<SimpleData name="Longitude">-74.12520723</SimpleData>
+					<SimpleData name="Latitude">42.14615598</SimpleData>
+					<SimpleData name="Ellipsoidal height">609.196</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.618</SimpleData>
+					<SimpleData name="Northing RMS">0.707</SimpleData>
+					<SimpleData name="Elevation RMS">2.003</SimpleData>
+					<SimpleData name="Lateral RMS">0.939</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 12:18:17.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 12:18:47.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">4.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.1252072289072,42.1461559793974,609.195537748344</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 28.5</name>
+			<description>no BBD!</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">182938.491</SimpleData>
+					<SimpleData name="Northing">368778.112</SimpleData>
+					<SimpleData name="Elevation">650.865</SimpleData>
+					<SimpleData name="Longitude">-74.10143414</SimpleData>
+					<SimpleData name="Latitude">42.15397634</SimpleData>
+					<SimpleData name="Ellipsoidal height">650.865</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.281</SimpleData>
+					<SimpleData name="Northing RMS">1.340</SimpleData>
+					<SimpleData name="Elevation RMS">2.926</SimpleData>
+					<SimpleData name="Lateral RMS">1.854</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:11:46.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:12:16.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">5.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.101434143457,42.1539763423709,650.865255629139</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>red spruce 29.5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">182938.212</SimpleData>
+					<SimpleData name="Northing">368777.043</SimpleData>
+					<SimpleData name="Elevation">650.689</SimpleData>
+					<SimpleData name="Longitude">-74.10143758</SimpleData>
+					<SimpleData name="Latitude">42.15396673</SimpleData>
+					<SimpleData name="Ellipsoidal height">650.689</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.837</SimpleData>
+					<SimpleData name="Northing RMS">0.954</SimpleData>
+					<SimpleData name="Elevation RMS">1.627</SimpleData>
+					<SimpleData name="Lateral RMS">2.070</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:13:27.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:13:57.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.10143758036421,42.1539667291854,650.688531125828</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 44.6 2nd stem 31</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183119.766</SimpleData>
+					<SimpleData name="Northing">368666.372</SimpleData>
+					<SimpleData name="Elevation">666.500</SimpleData>
+					<SimpleData name="Longitude">-74.09924705</SimpleData>
+					<SimpleData name="Latitude">42.15296265</SimpleData>
+					<SimpleData name="Ellipsoidal height">666.500</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.576</SimpleData>
+					<SimpleData name="Northing RMS">0.374</SimpleData>
+					<SimpleData name="Elevation RMS">1.338</SimpleData>
+					<SimpleData name="Lateral RMS">0.687</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:38:15.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:38:45.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.09924705370869,42.1529626495364,666.499812582781</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 36.1</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183122.761</SimpleData>
+					<SimpleData name="Northing">368662.649</SimpleData>
+					<SimpleData name="Elevation">666.263</SimpleData>
+					<SimpleData name="Longitude">-74.09921103</SimpleData>
+					<SimpleData name="Latitude">42.15292900</SimpleData>
+					<SimpleData name="Ellipsoidal height">666.263</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.620</SimpleData>
+					<SimpleData name="Northing RMS">0.485</SimpleData>
+					<SimpleData name="Elevation RMS">1.478</SimpleData>
+					<SimpleData name="Lateral RMS">0.787</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:40:13.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:40:43.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.7</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0992110317417,42.152928995702,666.263144370861</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 57.2</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183119.266</SimpleData>
+					<SimpleData name="Northing">368653.843</SimpleData>
+					<SimpleData name="Elevation">669.618</SimpleData>
+					<SimpleData name="Longitude">-74.09925382</SimpleData>
+					<SimpleData name="Latitude">42.15284987</SimpleData>
+					<SimpleData name="Ellipsoidal height">669.618</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.666</SimpleData>
+					<SimpleData name="Northing RMS">2.064</SimpleData>
+					<SimpleData name="Elevation RMS">5.152</SimpleData>
+					<SimpleData name="Lateral RMS">2.653</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:42:05.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:42:35.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">100.0</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0992538180728,42.1528498659801,669.618200662252</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 39.9</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183117.663</SimpleData>
+					<SimpleData name="Northing">368649.735</SimpleData>
+					<SimpleData name="Elevation">672.230</SimpleData>
+					<SimpleData name="Longitude">-74.09927345</SimpleData>
+					<SimpleData name="Latitude">42.15281294</SimpleData>
+					<SimpleData name="Ellipsoidal height">672.230</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.607</SimpleData>
+					<SimpleData name="Northing RMS">0.433</SimpleData>
+					<SimpleData name="Elevation RMS">1.930</SimpleData>
+					<SimpleData name="Lateral RMS">0.746</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:43:14.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:43:44.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">5.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.09927344652981,42.1528129435232,672.229598675497</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 48.0</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183123.591</SimpleData>
+					<SimpleData name="Northing">368648.895</SimpleData>
+					<SimpleData name="Elevation">668.075</SimpleData>
+					<SimpleData name="Longitude">-74.09920176</SimpleData>
+					<SimpleData name="Latitude">42.15280513</SimpleData>
+					<SimpleData name="Ellipsoidal height">668.075</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.477</SimpleData>
+					<SimpleData name="Northing RMS">1.048</SimpleData>
+					<SimpleData name="Elevation RMS">1.195</SimpleData>
+					<SimpleData name="Lateral RMS">1.811</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:44:37.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:45:07.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0992017646623,42.1528051301722,668.0747761589409</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 48.7</name>
+			<description>dead and fallen half missing on dbh</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183127.450</SimpleData>
+					<SimpleData name="Northing">368651.704</SimpleData>
+					<SimpleData name="Elevation">664.581</SimpleData>
+					<SimpleData name="Longitude">-74.09915492</SimpleData>
+					<SimpleData name="Latitude">42.15283026</SimpleData>
+					<SimpleData name="Ellipsoidal height">664.581</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.097</SimpleData>
+					<SimpleData name="Northing RMS">1.038</SimpleData>
+					<SimpleData name="Elevation RMS">1.979</SimpleData>
+					<SimpleData name="Lateral RMS">1.510</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:48:28.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:48:58.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">8.6</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0991549157352,42.1528302559603,664.580547682119</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 40.9</name>
+			<description>touching similar sized sugar maple</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183120.808</SimpleData>
+					<SimpleData name="Northing">368641.836</SimpleData>
+					<SimpleData name="Elevation">669.794</SimpleData>
+					<SimpleData name="Longitude">-74.09923584</SimpleData>
+					<SimpleData name="Latitude">42.15274169</SimpleData>
+					<SimpleData name="Ellipsoidal height">669.794</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.431</SimpleData>
+					<SimpleData name="Northing RMS">0.391</SimpleData>
+					<SimpleData name="Elevation RMS">1.247</SimpleData>
+					<SimpleData name="Lateral RMS">0.582</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:50:40.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:51:10.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">5.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.09923584305299,42.1527416900993,669.794206622516</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 42.8</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183127.516</SimpleData>
+					<SimpleData name="Northing">368636.585</SimpleData>
+					<SimpleData name="Elevation">669.911</SimpleData>
+					<SimpleData name="Longitude">-74.09915497</SimpleData>
+					<SimpleData name="Latitude">42.15269413</SimpleData>
+					<SimpleData name="Ellipsoidal height">669.911</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.715</SimpleData>
+					<SimpleData name="Northing RMS">0.806</SimpleData>
+					<SimpleData name="Elevation RMS">1.315</SimpleData>
+					<SimpleData name="Lateral RMS">1.077</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:52:02.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:52:32.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">5.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.099154966404,42.1526941282914,669.91143178808</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 32.3</name>
+			<description>thick beech understroy</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183129.203</SimpleData>
+					<SimpleData name="Northing">368638.894</SimpleData>
+					<SimpleData name="Elevation">671.100</SimpleData>
+					<SimpleData name="Longitude">-74.09913443</SimpleData>
+					<SimpleData name="Latitude">42.15271485</SimpleData>
+					<SimpleData name="Ellipsoidal height">671.100</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.636</SimpleData>
+					<SimpleData name="Northing RMS">0.410</SimpleData>
+					<SimpleData name="Elevation RMS">1.100</SimpleData>
+					<SimpleData name="Lateral RMS">0.757</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:52:48.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:53:18.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.099134425245,42.1527148500662,671.099820529801</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 41.8</name>
+			<description>thick beech understroy</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183135.210</SimpleData>
+					<SimpleData name="Northing">368639.121</SimpleData>
+					<SimpleData name="Elevation">671.707</SimpleData>
+					<SimpleData name="Longitude">-74.09906174</SimpleData>
+					<SimpleData name="Latitude">42.15271664</SimpleData>
+					<SimpleData name="Ellipsoidal height">671.707</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.535</SimpleData>
+					<SimpleData name="Northing RMS">0.646</SimpleData>
+					<SimpleData name="Elevation RMS">1.568</SimpleData>
+					<SimpleData name="Lateral RMS">0.839</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:54:53.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:55:23.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0990617380662,42.1527166416093,671.707341059603</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 32.3</name>
+			<description>thick beech understroy</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183141.559</SimpleData>
+					<SimpleData name="Northing">368637.865</SimpleData>
+					<SimpleData name="Elevation">672.496</SimpleData>
+					<SimpleData name="Longitude">-74.09898498</SimpleData>
+					<SimpleData name="Latitude">42.15270506</SimpleData>
+					<SimpleData name="Ellipsoidal height">672.496</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.429</SimpleData>
+					<SimpleData name="Northing RMS">0.560</SimpleData>
+					<SimpleData name="Elevation RMS">1.095</SimpleData>
+					<SimpleData name="Lateral RMS">0.706</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:56:15.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:56:45.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">1.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.098984979967,42.152705062894,672.496290728477</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 39.4</name>
+			<description>dead now</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183141.283</SimpleData>
+					<SimpleData name="Northing">368639.709</SimpleData>
+					<SimpleData name="Elevation">679.166</SimpleData>
+					<SimpleData name="Longitude">-74.09898821</SimpleData>
+					<SimpleData name="Latitude">42.15272168</SimpleData>
+					<SimpleData name="Ellipsoidal height">679.166</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.553</SimpleData>
+					<SimpleData name="Northing RMS">0.385</SimpleData>
+					<SimpleData name="Elevation RMS">1.315</SimpleData>
+					<SimpleData name="Lateral RMS">0.673</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 13:58:43.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 13:59:13.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.098988213596,42.1527216772384,679.1663105960261</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh  57.0</name>
+			<description>dead now</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183150.865</SimpleData>
+					<SimpleData name="Northing">368636.482</SimpleData>
+					<SimpleData name="Elevation">677.903</SimpleData>
+					<SimpleData name="Longitude">-74.09887246</SimpleData>
+					<SimpleData name="Latitude">42.15269222</SimpleData>
+					<SimpleData name="Ellipsoidal height">677.903</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.427</SimpleData>
+					<SimpleData name="Northing RMS">1.226</SimpleData>
+					<SimpleData name="Elevation RMS">1.669</SimpleData>
+					<SimpleData name="Lateral RMS">1.882</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 14:01:28.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 14:01:58.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">5.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.09887246037751,42.1526922206688,677.90321589404</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh  33.3</name>
+			<description>dead now</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183150.260</SimpleData>
+					<SimpleData name="Northing">368650.632</SimpleData>
+					<SimpleData name="Elevation">675.030</SimpleData>
+					<SimpleData name="Longitude">-74.09887898</SimpleData>
+					<SimpleData name="Latitude">42.15281964</SimpleData>
+					<SimpleData name="Ellipsoidal height">675.030</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.586</SimpleData>
+					<SimpleData name="Northing RMS">0.564</SimpleData>
+					<SimpleData name="Elevation RMS">1.035</SimpleData>
+					<SimpleData name="Lateral RMS">0.813</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 14:03:20.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 14:03:50.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.7</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.09887897758939,42.1528196412119,675.030282119205</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh  31.4</name>
+			<description>dead now</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183149.824</SimpleData>
+					<SimpleData name="Northing">368657.604</SimpleData>
+					<SimpleData name="Elevation">678.232</SimpleData>
+					<SimpleData name="Longitude">-74.09888385</SimpleData>
+					<SimpleData name="Latitude">42.15288244</SimpleData>
+					<SimpleData name="Ellipsoidal height">678.232</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.765</SimpleData>
+					<SimpleData name="Northing RMS">0.443</SimpleData>
+					<SimpleData name="Elevation RMS">1.227</SimpleData>
+					<SimpleData name="Lateral RMS">0.884</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 14:05:37.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 14:06:07.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.0</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0988838510066,42.1528824375828,678.232100662252</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh  38.7</name>
+			<description>fallen leaner</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183128.967</SimpleData>
+					<SimpleData name="Northing">368659.025</SimpleData>
+					<SimpleData name="Elevation">661.383</SimpleData>
+					<SimpleData name="Longitude">-74.09913614</SimpleData>
+					<SimpleData name="Latitude">42.15289611</SimpleData>
+					<SimpleData name="Ellipsoidal height">661.383</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">4.601</SimpleData>
+					<SimpleData name="Northing RMS">4.359</SimpleData>
+					<SimpleData name="Elevation RMS">6.893</SimpleData>
+					<SimpleData name="Lateral RMS">6.339</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 14:08:20.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 14:08:50.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">14.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.09913613509271,42.1528961074106,661.382972847682</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh</name>
+			<description>37.2</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183128.224</SimpleData>
+					<SimpleData name="Northing">368658.951</SimpleData>
+					<SimpleData name="Elevation">667.097</SimpleData>
+					<SimpleData name="Longitude">-74.09914513</SimpleData>
+					<SimpleData name="Latitude">42.15289548</SimpleData>
+					<SimpleData name="Ellipsoidal height">667.097</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.571</SimpleData>
+					<SimpleData name="Northing RMS">0.536</SimpleData>
+					<SimpleData name="Elevation RMS">1.691</SimpleData>
+					<SimpleData name="Lateral RMS">0.783</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 14:09:38.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 14:10:08.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.09914513295359,42.1528954752517,667.09679205298</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 22.8</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">183157.617</SimpleData>
+					<SimpleData name="Northing">368693.616</SimpleData>
+					<SimpleData name="Elevation">673.666</SimpleData>
+					<SimpleData name="Longitude">-74.09878752</SimpleData>
+					<SimpleData name="Latitude">42.15320634</SimpleData>
+					<SimpleData name="Ellipsoidal height">673.666</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.579</SimpleData>
+					<SimpleData name="Northing RMS">0.577</SimpleData>
+					<SimpleData name="Elevation RMS">0.974</SimpleData>
+					<SimpleData name="Lateral RMS">0.817</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-07-22 14:20:38.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-07-22 14:21:08.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.6</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0987875163113,42.1532063374702,673.665719205298</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 55.0</name>
+			<description>very large canopy, many smaller beech in stand but all much you ger, sub 30 dbh</description>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">175890.917</SimpleData>
+					<SimpleData name="Northing">375527.434</SimpleData>
+					<SimpleData name="Elevation">612.022</SimpleData>
+					<SimpleData name="Longitude">-74.18641039</SimpleData>
+					<SimpleData name="Latitude">42.21500868</SimpleData>
+					<SimpleData name="Ellipsoidal height">612.022</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.797</SimpleData>
+					<SimpleData name="Northing RMS">1.552</SimpleData>
+					<SimpleData name="Elevation RMS">2.033</SimpleData>
+					<SimpleData name="Lateral RMS">2.375</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-08-01 14:06:53.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-08-01 14:07:23.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.6</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.18641038509929,42.2150086781391,612.022193377484</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2x 30+ dbh beech</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">175934.333</SimpleData>
+					<SimpleData name="Northing">375338.880</SimpleData>
+					<SimpleData name="Elevation">605.633</SimpleData>
+					<SimpleData name="Longitude">-74.18589295</SimpleData>
+					<SimpleData name="Latitude">42.21330959</SimpleData>
+					<SimpleData name="Ellipsoidal height">605.633</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.528</SimpleData>
+					<SimpleData name="Northing RMS">0.969</SimpleData>
+					<SimpleData name="Elevation RMS">1.671</SimpleData>
+					<SimpleData name="Lateral RMS">1.809</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-08-01 16:06:52.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-08-01 16:07:22.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.18589295150331,42.2133095939338,605.63312384106</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech 37.9 dbh</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">175933.341</SimpleData>
+					<SimpleData name="Northing">375353.870</SimpleData>
+					<SimpleData name="Elevation">610.078</SimpleData>
+					<SimpleData name="Longitude">-74.18590430</SimpleData>
+					<SimpleData name="Latitude">42.21344459</SimpleData>
+					<SimpleData name="Ellipsoidal height">610.078</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.794</SimpleData>
+					<SimpleData name="Northing RMS">0.594</SimpleData>
+					<SimpleData name="Elevation RMS">1.183</SimpleData>
+					<SimpleData name="Lateral RMS">0.992</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-08-01 16:09:00.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-08-01 16:09:30.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.18590429734429,42.2134445905033,610.078319867549</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 36</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169203.737</SimpleData>
+					<SimpleData name="Northing">354835.803</SimpleData>
+					<SimpleData name="Elevation">186.021</SimpleData>
+					<SimpleData name="Longitude">-74.26808482</SimpleData>
+					<SimpleData name="Latitude">42.02890028</SimpleData>
+					<SimpleData name="Ellipsoidal height">186.021</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.728</SimpleData>
+					<SimpleData name="Northing RMS">0.752</SimpleData>
+					<SimpleData name="Elevation RMS">2.379</SimpleData>
+					<SimpleData name="Lateral RMS">1.047</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:27:19.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:27:49.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.5</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2680848238212,42.0289002760199,186.02119205298</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 47.5</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169199.873</SimpleData>
+					<SimpleData name="Northing">354826.927</SimpleData>
+					<SimpleData name="Elevation">187.744</SimpleData>
+					<SimpleData name="Longitude">-74.26813178</SimpleData>
+					<SimpleData name="Latitude">42.02882046</SimpleData>
+					<SimpleData name="Ellipsoidal height">187.744</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.757</SimpleData>
+					<SimpleData name="Northing RMS">1.250</SimpleData>
+					<SimpleData name="Elevation RMS">2.710</SimpleData>
+					<SimpleData name="Lateral RMS">2.156</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:29:40.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:30:10.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.0</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.26813177721191,42.0288204553444,187.744415231788</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 36.5 snag</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169201.033</SimpleData>
+					<SimpleData name="Northing">354826.648</SimpleData>
+					<SimpleData name="Elevation">191.690</SimpleData>
+					<SimpleData name="Longitude">-74.26811778</SimpleData>
+					<SimpleData name="Latitude">42.02881791</SimpleData>
+					<SimpleData name="Ellipsoidal height">191.690</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.889</SimpleData>
+					<SimpleData name="Northing RMS">1.096</SimpleData>
+					<SimpleData name="Elevation RMS">3.160</SimpleData>
+					<SimpleData name="Lateral RMS">1.411</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:31:47.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:32:17.8 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2681177763245,42.0288179102582,191.690282781457</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 47</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169202.734</SimpleData>
+					<SimpleData name="Northing">354831.501</SimpleData>
+					<SimpleData name="Elevation">208.615</SimpleData>
+					<SimpleData name="Longitude">-74.26809708</SimpleData>
+					<SimpleData name="Latitude">42.02886157</SimpleData>
+					<SimpleData name="Ellipsoidal height">208.615</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.041</SimpleData>
+					<SimpleData name="Northing RMS">1.014</SimpleData>
+					<SimpleData name="Elevation RMS">2.852</SimpleData>
+					<SimpleData name="Lateral RMS">1.453</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:35:36.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:36:06.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.6</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2680970757748,42.0288615684503,208.614937086093</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 45 snag</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169200.873</SimpleData>
+					<SimpleData name="Northing">354835.152</SimpleData>
+					<SimpleData name="Elevation">203.596</SimpleData>
+					<SimpleData name="Longitude">-74.26811944</SimpleData>
+					<SimpleData name="Latitude">42.02889448</SimpleData>
+					<SimpleData name="Ellipsoidal height">203.596</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.958</SimpleData>
+					<SimpleData name="Northing RMS">0.914</SimpleData>
+					<SimpleData name="Elevation RMS">2.423</SimpleData>
+					<SimpleData name="Lateral RMS">1.324</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:37:22.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:37:52.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">4.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2681194401589,42.0288944848874,203.596290728477</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 33</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169199.622</SimpleData>
+					<SimpleData name="Northing">354836.449</SimpleData>
+					<SimpleData name="Elevation">209.735</SimpleData>
+					<SimpleData name="Longitude">-74.26813450</SimpleData>
+					<SimpleData name="Latitude">42.02890619</SimpleData>
+					<SimpleData name="Ellipsoidal height">209.735</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.995</SimpleData>
+					<SimpleData name="Northing RMS">1.127</SimpleData>
+					<SimpleData name="Elevation RMS">2.376</SimpleData>
+					<SimpleData name="Lateral RMS">1.503</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:40:42.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:41:12.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2681344990265,42.0289061910265,209.735262251656</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 27</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169198.224</SimpleData>
+					<SimpleData name="Northing">354842.915</SimpleData>
+					<SimpleData name="Elevation">200.725</SimpleData>
+					<SimpleData name="Longitude">-74.26815118</SimpleData>
+					<SimpleData name="Latitude">42.02896444</SimpleData>
+					<SimpleData name="Ellipsoidal height">200.725</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.163</SimpleData>
+					<SimpleData name="Northing RMS">1.045</SimpleData>
+					<SimpleData name="Elevation RMS">2.469</SimpleData>
+					<SimpleData name="Lateral RMS">1.563</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:42:26.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:42:56.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2681511772649,42.0289644448278,200.725185430464</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 44</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169194.435</SimpleData>
+					<SimpleData name="Northing">354849.846</SimpleData>
+					<SimpleData name="Elevation">195.280</SimpleData>
+					<SimpleData name="Longitude">-74.26819670</SimpleData>
+					<SimpleData name="Latitude">42.02902695</SimpleData>
+					<SimpleData name="Ellipsoidal height">195.280</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.994</SimpleData>
+					<SimpleData name="Northing RMS">0.963</SimpleData>
+					<SimpleData name="Elevation RMS">2.425</SimpleData>
+					<SimpleData name="Lateral RMS">1.384</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:45:07.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:45:37.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.0</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2681966998543,42.0290269498212,195.280410596027</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 48</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169194.424</SimpleData>
+					<SimpleData name="Northing">354859.407</SimpleData>
+					<SimpleData name="Elevation">207.165</SimpleData>
+					<SimpleData name="Longitude">-74.26819652</SimpleData>
+					<SimpleData name="Latitude">42.02911303</SimpleData>
+					<SimpleData name="Ellipsoidal height">207.165</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.948</SimpleData>
+					<SimpleData name="Northing RMS">0.762</SimpleData>
+					<SimpleData name="Elevation RMS">1.974</SimpleData>
+					<SimpleData name="Lateral RMS">1.217</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:47:42.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:48:12.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.5</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2681965202384,42.0291130302517,207.164953642384</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 42</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169189.508</SimpleData>
+					<SimpleData name="Northing">354860.310</SimpleData>
+					<SimpleData name="Elevation">209.775</SimpleData>
+					<SimpleData name="Longitude">-74.26825586</SimpleData>
+					<SimpleData name="Latitude">42.02912128</SimpleData>
+					<SimpleData name="Ellipsoidal height">209.775</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.547</SimpleData>
+					<SimpleData name="Northing RMS">1.688</SimpleData>
+					<SimpleData name="Elevation RMS">3.717</SimpleData>
+					<SimpleData name="Lateral RMS">1.775</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:49:09.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:49:39.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2682558607417,42.0291212784106,209.775223178808</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 31</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169189.703</SimpleData>
+					<SimpleData name="Northing">354859.972</SimpleData>
+					<SimpleData name="Elevation">189.199</SimpleData>
+					<SimpleData name="Longitude">-74.26825351</SimpleData>
+					<SimpleData name="Latitude">42.02911823</SimpleData>
+					<SimpleData name="Ellipsoidal height">189.199</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.684</SimpleData>
+					<SimpleData name="Northing RMS">1.437</SimpleData>
+					<SimpleData name="Elevation RMS">4.808</SimpleData>
+					<SimpleData name="Lateral RMS">2.214</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:53:04.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:53:34.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.26825351439069,42.0291182330861,189.198659602649</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 42</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169195.606</SimpleData>
+					<SimpleData name="Northing">354863.644</SimpleData>
+					<SimpleData name="Elevation">201.613</SimpleData>
+					<SimpleData name="Longitude">-74.26818211</SimpleData>
+					<SimpleData name="Latitude">42.02915115</SimpleData>
+					<SimpleData name="Ellipsoidal height">201.613</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.795</SimpleData>
+					<SimpleData name="Northing RMS">0.828</SimpleData>
+					<SimpleData name="Elevation RMS">2.248</SimpleData>
+					<SimpleData name="Lateral RMS">1.148</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:56:11.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:56:41.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.2</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2681821103908,42.0291511542913,201.613144370861</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 44</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169185.519</SimpleData>
+					<SimpleData name="Northing">354870.883</SimpleData>
+					<SimpleData name="Elevation">209.347</SimpleData>
+					<SimpleData name="Longitude">-74.26830369</SimpleData>
+					<SimpleData name="Latitude">42.02921657</SimpleData>
+					<SimpleData name="Ellipsoidal height">209.347</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.524</SimpleData>
+					<SimpleData name="Northing RMS">0.642</SimpleData>
+					<SimpleData name="Elevation RMS">2.308</SimpleData>
+					<SimpleData name="Lateral RMS">0.829</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:58:55.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 15:59:25.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.26830368922521,42.0292165731656,209.346933112583</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 33</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169192.254</SimpleData>
+					<SimpleData name="Northing">354868.769</SimpleData>
+					<SimpleData name="Elevation">198.823</SimpleData>
+					<SimpleData name="Longitude">-74.26822242</SimpleData>
+					<SimpleData name="Latitude">42.02919738</SimpleData>
+					<SimpleData name="Ellipsoidal height">198.823</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">2.118</SimpleData>
+					<SimpleData name="Northing RMS">1.009</SimpleData>
+					<SimpleData name="Elevation RMS">1.866</SimpleData>
+					<SimpleData name="Lateral RMS">2.346</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 15:59:43.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 16:00:13.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.7</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2682224217814,42.029197383298,198.822654966888</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 41</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169197.621</SimpleData>
+					<SimpleData name="Northing">354876.536</SimpleData>
+					<SimpleData name="Elevation">198.628</SimpleData>
+					<SimpleData name="Longitude">-74.26815735</SimpleData>
+					<SimpleData name="Latitude">42.02926718</SimpleData>
+					<SimpleData name="Ellipsoidal height">198.628</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.733</SimpleData>
+					<SimpleData name="Northing RMS">0.895</SimpleData>
+					<SimpleData name="Elevation RMS">2.132</SimpleData>
+					<SimpleData name="Lateral RMS">1.157</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 16:01:38.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 16:02:08.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">1.8</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2681573490861,42.0292671829205,198.628087417219</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>oak dbh 54</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169191.825</SimpleData>
+					<SimpleData name="Northing">354868.128</SimpleData>
+					<SimpleData name="Elevation">199.780</SimpleData>
+					<SimpleData name="Longitude">-74.26822763</SimpleData>
+					<SimpleData name="Latitude">42.02919162</SimpleData>
+					<SimpleData name="Ellipsoidal height">199.780</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.996</SimpleData>
+					<SimpleData name="Northing RMS">1.114</SimpleData>
+					<SimpleData name="Elevation RMS">5.773</SimpleData>
+					<SimpleData name="Lateral RMS">2.286</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 16:03:33.0 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 16:04:03.0 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.26822762871529,42.0291916207483,199.779742384106</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>tulip dbh 53</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169193.859</SimpleData>
+					<SimpleData name="Northing">354858.086</SimpleData>
+					<SimpleData name="Elevation">175.680</SimpleData>
+					<SimpleData name="Longitude">-74.26820339</SimpleData>
+					<SimpleData name="Latitude">42.02910115</SimpleData>
+					<SimpleData name="Ellipsoidal height">175.680</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.387</SimpleData>
+					<SimpleData name="Northing RMS">1.480</SimpleData>
+					<SimpleData name="Elevation RMS">3.973</SimpleData>
+					<SimpleData name="Lateral RMS">2.028</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 16:06:57.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 16:07:27.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">3.3</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2682033902384,42.0291011541258,175.680380794702</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 51</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169200.724</SimpleData>
+					<SimpleData name="Northing">354850.295</SimpleData>
+					<SimpleData name="Elevation">183.501</SimpleData>
+					<SimpleData name="Longitude">-74.26812074</SimpleData>
+					<SimpleData name="Latitude">42.02903083</SimpleData>
+					<SimpleData name="Ellipsoidal height">183.501</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.577</SimpleData>
+					<SimpleData name="Northing RMS">1.408</SimpleData>
+					<SimpleData name="Elevation RMS">3.336</SimpleData>
+					<SimpleData name="Lateral RMS">2.114</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 16:08:40.6 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 16:09:10.6 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">2.1</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.26812073707281,42.0290308309205,183.501468874172</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>oak dbh 70</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169207.155</SimpleData>
+					<SimpleData name="Northing">354843.614</SimpleData>
+					<SimpleData name="Elevation">193.288</SimpleData>
+					<SimpleData name="Longitude">-74.26804329</SimpleData>
+					<SimpleData name="Latitude">42.02897052</SimpleData>
+					<SimpleData name="Ellipsoidal height">193.288</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.023</SimpleData>
+					<SimpleData name="Northing RMS">1.619</SimpleData>
+					<SimpleData name="Elevation RMS">3.969</SimpleData>
+					<SimpleData name="Lateral RMS">1.915</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 16:11:24.4 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 16:11:54.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">11.4</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2680432916622,42.0289705210729,193.288109271523</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 42</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169210.657</SimpleData>
+					<SimpleData name="Northing">354839.077</SimpleData>
+					<SimpleData name="Elevation">190.013</SimpleData>
+					<SimpleData name="Longitude">-74.26800115</SimpleData>
+					<SimpleData name="Latitude">42.02892959</SimpleData>
+					<SimpleData name="Ellipsoidal height">190.013</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">1.115</SimpleData>
+					<SimpleData name="Northing RMS">1.152</SimpleData>
+					<SimpleData name="Elevation RMS">2.501</SimpleData>
+					<SimpleData name="Lateral RMS">1.603</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 16:12:58.2 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 16:13:28.2 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">151</SimpleData>
+					<SimpleData name="GDOP">1.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2680011501192,42.0289295874172,190.012830463576</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>beech dbh 65</name>
+			<ExtendedData>
+				<SchemaData schemaUrl="#Points">
+					<SimpleData name="Code">P</SimpleData>
+					<SimpleData name="Easting">169214.845</SimpleData>
+					<SimpleData name="Northing">354841.899</SimpleData>
+					<SimpleData name="Elevation">193.043</SimpleData>
+					<SimpleData name="Longitude">-74.26795049</SimpleData>
+					<SimpleData name="Latitude">42.02895489</SimpleData>
+					<SimpleData name="Ellipsoidal height">193.043</SimpleData>
+					<SimpleData name="Origin">Global</SimpleData>
+					<SimpleData name="Easting RMS">0.878</SimpleData>
+					<SimpleData name="Northing RMS">1.181</SimpleData>
+					<SimpleData name="Elevation RMS">1.973</SimpleData>
+					<SimpleData name="Lateral RMS">1.472</SimpleData>
+					<SimpleData name="Antenna height">1.934</SimpleData>
+					<SimpleData name="Antenna height units">m</SimpleData>
+					<SimpleData name="Solution status">SINGLE</SimpleData>
+					<SimpleData name="Averaging start">2024-10-10 16:14:56.8 UTC-04:00</SimpleData>
+					<SimpleData name="Averaging end">2024-10-10 16:15:22.4 UTC-04:00</SimpleData>
+					<SimpleData name="Samples">129</SimpleData>
+					<SimpleData name="GDOP">1.9</SimpleData>
+					<SimpleData name="CS name">NAD83(2011) / New York East</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2679504864651,42.028954892031,193.043168217054</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

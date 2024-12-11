@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Beech Stand Polygons.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Beech Stands Polygons</name>
+		<Placemark>
+			<name>beech stand 1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.09931493426043,42.15294996593338,0 -74.09928587880111,42.1528546384079,0 -74.09923411517329,42.15275257296915,0 -74.0991685691872,42.15271973424576,0 -74.09907659585606,42.15273461048527,0 -74.09901207362441,42.15265500467953,0 -74.09895396625888,42.1525655720196,0 -74.09886760010728,42.15257898582063,0 -74.09880084426119,42.15268851198913,0 -74.09871829120385,42.1527060862194,0 -74.09881457053638,42.15282308888325,0 -74.09899515021124,42.15286315422117,0 -74.09913732379319,42.15286381421071,0 -74.09913131041637,42.15289528543337,0 -74.09923921794514,42.15297865696561,0 -74.09931493426043,42.15294996593338,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>beech stand 2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.12421377444841,42.14628370855859,0 -74.12417696046096,42.14631585333542,0 -74.12417303601502,42.1463777531958,0 -74.12414838477922,42.14643427319408,0 -74.12407659443424,42.14650799054982,0 -74.12400952557823,42.14660009977667,0 -74.12406820025164,42.14663817306102,0 -74.12413975807313,42.14662579183494,0 -74.12421331316466,42.14660540548798,0 -74.12428278725775,42.14657452378006,0 -74.12430305531201,42.14654233654432,0 -74.12431045422646,42.14649016515458,0 -74.12429647290827,42.14642473071419,0 -74.12429160111618,42.14635334338039,0 -74.12425631173083,42.14630115113712,0 -74.12421377444841,42.14628370855859,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>beech stand 3</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.12545237132578,42.14640544902139,0 -74.12526579082189,42.14646121680406,0 -74.12533520695911,42.14662277014822,0 -74.12549025952134,42.14665861380838,0 -74.12561312052358,42.14660140787276,0 -74.12575869589436,42.14656964899336,0 -74.12562141630735,42.14641947804841,0 -74.12545237132578,42.14640544902139,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>beech stand 4</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.26808059706281,42.02905554003558,0 -74.26812825025058,42.02911475697803,0 -74.2681671392649,42.02917609511854,0 -74.26813512127434,42.02923206372169,0 -74.26814095402116,42.0293042647729,0 -74.26822766934983,42.02929973621751,0 -74.26834764310188,42.02924395251076,0 -74.26838625454718,42.02916611755134,0 -74.26838259731295,42.02914730498995,0 -74.26831392813902,42.02911929415994,0 -74.26824084807387,42.02909740956071,0 -74.26822709342115,42.02904662739914,0 -74.26819219328411,42.02899694374871,0 -74.26816991596149,42.0289575253384,0 -74.26816715506476,42.02890059149134,0 -74.26815325279793,42.02881505492751,0 -74.26811116455616,42.02881494619155,0 -74.26793404799639,42.02894231739598,0 -74.26808059706281,42.02905554003558,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>non-beech stand</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.12554226562253,42.14626614732595,0 -74.12544599535956,42.14614274826587,0 -74.12530727374025,42.14620469095811,0 -74.12520283083279,42.1463314624977,0 -74.12528918884755,42.14636132538812,0 -74.12549391917808,42.14637100034663,0 -74.12554226562253,42.14626614732595,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>non-beech stand</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.09885785107896,42.15326304472809,0 -74.09894328113994,42.15322663236226,0 -74.09901139364729,42.15320678590573,0 -74.0988772485742,42.15308796592326,0 -74.09883866009336,42.15312146302548,0 -74.09876977803199,42.15323697358198,0 -74.09877023592301,42.15332207134853,0 -74.09888016418626,42.15336400524788,0 -74.09894079660359,42.15332394651565,0 -74.09885785107896,42.15326304472809,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>non-beech stand</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.12402558603438,42.14628597189578,0 -74.12391306183507,42.14629348396441,0 -74.1238410147399,42.14631932817453,0 -74.12378614377432,42.14642353402481,0 -74.12390393514288,42.14649848029079,0 -74.1239875515148,42.14649623698471,0 -74.12403604849132,42.14637333147669,0 -74.12405976888485,42.14629271963877,0 -74.12402558603438,42.14628597189578,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>non-beech stand</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-74.2676005300661,42.02924417724552,0 -74.26742839152499,42.02936422638014,0 -74.26746244928398,42.02952097625516,0 -74.26758167671399,42.02956288351483,0 -74.26773129023559,42.02949350298568,0 -74.26776052968184,42.02934893125803,0 -74.26767118610783,42.02925666309726,0 -74.2676005300661,42.02924417724552,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
