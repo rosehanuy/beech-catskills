@@ -5,8 +5,12 @@ import xarray as xr
 import rioxarray as rio
 import numpy as np
 
+
+
+
 class SentinelDownloader:
-    def __init__(self,year,boundary):
+    def __init__(self,year,boundary,epsg):
+        self.epsg = epsg
         self.year = year
         self.boundary = boundary
         self.cloud_masked_and_scaled = self.download_data()
@@ -33,7 +37,7 @@ class SentinelDownloader:
         # create xarray
         stack = stackstac.stack(
             items,
-            epsg=26918,
+            epsg=self.epsg,
             resolution=10,
             bounds=bbox_utm,
             assets=['B02','B03','B04','B05','B06','B07','B08','B8A','B11','B12','SCL']).where(lambda x: x > 0, other=np.nan)
@@ -86,11 +90,13 @@ class SentinelDownloader:
         ndvi = (nir-red)/(red+nir).expand_dims({'band':['ndvi']})
 
         evi = 2.5 * ((nir - red) / (nir + 6 * red - 7.5 * blue + 1)).expand_dims({'band':['evi']})
-
+        
         lswi = (nir - sw1)/(nir + sw1).expand_dims({'band':['lswi']})
-
+        
         slavi = nir/(red + sw2).expand_dims({'band':['slavi']})
-
+        
         psri = (red - blue)/re2.expand_dims({'band':['psri']})
-
-        self.indices = xr.concat([ndvi,evi,lswi,slavi,re2,psri],dim='band').reset_coords(drop=True)
+        
+        all = xr.concat([ndvi,evi,lswi,slavi,psri],dim='band').reset_coords(drop=True)
+        
+        self.indices = all.where(all.where(np.isfinite(all),np.nan))
