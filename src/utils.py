@@ -6,8 +6,6 @@ import rioxarray as rio
 import numpy as np
 
 
-
-
 class SentinelDownloader:
     def __init__(self,year,boundary,epsg):
         self.epsg = epsg
@@ -87,16 +85,52 @@ class SentinelDownloader:
         sw2 = self.complete_data.sel(band='B12')
         re2 = self.complete_data.sel(band='B06')
 
-        ndvi = (nir-red)/(red+nir).expand_dims({'band':['ndvi']})
+        ndvi = (nir-red)/(red+nir).expand_dims({'band':['ndvi']})  # range -1 to 1
+        ndvi = self.remove_outliers(ndvi)
 
-        evi = 2.5 * ((nir - red) / (nir + 6 * red - 7.5 * blue + 1)).expand_dims({'band':['evi']})
+        evi = 2.5 * ((nir - red) / (nir + 6 * red - 7.5 * blue + 1)).expand_dims({'band':['evi']}) # range -1 - 1
+        evi = self.remove_outliers(evi)
         
-        lswi = (nir - sw1)/(nir + sw1).expand_dims({'band':['lswi']})
+        lswi = (nir - sw1)/(nir + sw1).expand_dims({'band':['lswi']}) # range -1 to 1
+        lswi = self.remove_outliers(lswi)
+
+        slavi = nir/(red + sw2).expand_dims({'band':['slavi']}) # range 0 - 8
+        slavi = self.remove_outliers(slavi,norm=False)
         
-        slavi = nir/(red + sw2).expand_dims({'band':['slavi']})
-        
-        psri = (red - blue)/re2.expand_dims({'band':['psri']})
-        
+        psri = (red - blue)/re2.expand_dims({'band':['psri']}) # range -1 to 1
+        psri = self.remove_outliers(psri)
+
         all = xr.concat([ndvi,evi,lswi,slavi,psri],dim='band').reset_coords(drop=True)
         
-        self.indices = all.where(all.where(np.isfinite(all),np.nan))
+        self.indices = all
+
+    def remove_outliers(self,a,norm=True):
+        a = a.where(np.isfinite(a),np.nan)
+        if norm == True:
+            a = a.where((a >= -1) & (a <= 1))
+        else:
+            a = a.where((a >= 0) & (a <= 8))
+        return a
+    
+    def check_data_range(self,a):
+        for i in range(0,len(a.band),1):
+            print(f'Band {i}: min: {np.nanmin(a.isel(band=i))}, max {np.nanmax(a.isel(band=i))}')
+
+
+
+# assign colors for plotting points
+# def get_hsv_colors():
+#     # https://matplotlib.org/3.1.0/gallery/color/named_colors.html
+#     by_hsv = sorted((tuple(mcolors.rgb_to_hsv(mcolors.to_rgb(color))), name) 
+#                     for name, color in mcolors.CSS4_COLORS.items())
+#     return [name for _, name in by_hsv]
+
+# col_list = get_hsv_colors()[64:]
+# r = sample(range(0, len(col_list)),len(np.unique(bart_trees.taxonID)))
+# color_list = [col_list[i] for i in r]
+# ids = np.unique(bart_trees.taxonID)
+
+# color_map = {id:r for id, r in zip(ids,color_list)}
+
+# color_map['FAGR'] = 'orange'
+# color_map['TSCA'] = 'red'
