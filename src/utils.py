@@ -15,6 +15,7 @@ class SentinelDownloader:
         self.complete_data = xr.DataArray()
         self.missing_data = list()
         self.indices = xr.DataArray()
+        self.indices2 = xr.DataArray()
 
     def download_data(self):
         bbox_4326 = tuple(self.boundary.to_crs(4326).total_bounds)
@@ -78,6 +79,33 @@ class SentinelDownloader:
         self.indices.to_netcdf(root / 'sentinel_data' / f'{filename}_indices.nc')
 
     def get_indices(self):
+        blue = self.complete_data.sel(band='B02')
+        red = self.complete_data.sel(band='B04')
+        nir = self.complete_data.sel(band='B8A')
+        sw1 = self.complete_data.sel(band='B11')
+        sw2 = self.complete_data.sel(band='B12')
+        re2 = self.complete_data.sel(band='B06')
+
+        ndvi = (nir-red)/(red+nir).expand_dims({'band':['ndvi']})  # range -1 to 1
+        ndvi = self.remove_outliers(ndvi)
+
+        evi = 2.5 * ((nir - red) / (nir + 6 * red - 7.5 * blue + 1)).expand_dims({'band':['evi']}) # range -1 - 1
+        evi = self.remove_outliers(evi)
+        
+        lswi = (nir - sw1)/(nir + sw1).expand_dims({'band':['lswi']}) # range -1 to 1
+        lswi = self.remove_outliers(lswi)
+
+        slavi = nir/(red + sw2).expand_dims({'band':['slavi']}) # range 0 - 8
+        slavi = self.remove_outliers(slavi,norm=False)
+        
+        psri = (red - blue)/re2.expand_dims({'band':['psri']}) # range -1 to 1
+        psri = self.remove_outliers(psri)
+
+        all = xr.concat([ndvi,evi,lswi,slavi,psri],dim='band').reset_coords(drop=True)
+        
+        self.indices = all
+
+    def get_indices2(self):
         blue = self.complete_data.sel(band='B02')
         red = self.complete_data.sel(band='B04')
         nir = self.complete_data.sel(band='B8A')

@@ -71,10 +71,12 @@ nonbeech <- read.csv(here('output','nonbeech_sentinel_pixels.csv'))
 ```
 
 
+
 ```{r}
 sep_measures_df <- data.frame()
+len <- ncol(beech)
 
-for (i in 2:341){
+for (i in 2:len){
 beech_vec <-  beech[,i]
 non_beech_vec <- nonbeech[,i]
 m <- separability.measures(beech_vec,non_beech_vec)
@@ -92,7 +94,7 @@ df <- sep_measures_df[complete.cases(sep_measures_df),]
 
 
 ```{r}
-write.csv(df,here('output','sentinel_sep_measures.csv'))
+write.csv(df,here('output','sentinel_indices_sep_measures.csv'))
 
 ```
 
