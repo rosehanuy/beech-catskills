@@ -4,6 +4,8 @@ import stackstac
 import xarray as xr
 import rioxarray as rio
 import numpy as np
+import pandas as pd
+import geopandas as gpd
 
 
 class SentinelDownloader:
@@ -145,7 +147,18 @@ class SentinelDownloader:
             print(f'Band {i}: min: {np.nanmin(a.isel(band=i))}, max {np.nanmax(a.isel(band=i))}')
 
 
-
+def read_neon_trees(root,site,epsg):
+    # ref_data_path = root / 'DP3.30006.001' / 'neon-aop-products' / '2019' / 'FullSite' / 'D01' / site_folder / 'L3' / 'Spectrometer' / 'Reflectance'
+    # read in tree location data
+    
+    trees_df = pd.read_csv(root / 'output' / site / f'neon_trees_{site}.csv')
+    if site == 'BART':
+        trees_df.taxonID = trees_df.taxonID.replace(to_replace='BEPA',value='BEPAP')
+    trees_df.taxonID.value_counts()
+    geometry = gpd.points_from_xy(trees_df.easting_tree, trees_df.northing_tree, crs=epsg)
+    trees_df['geometry'] = geometry
+    trees_gdf = gpd.GeoDataFrame(trees_df,geometry='geometry',crs=epsg)
+    return trees_gdf
 # assign colors for plotting points
 # def get_hsv_colors():
 #     # https://matplotlib.org/3.1.0/gallery/color/named_colors.html

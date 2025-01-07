@@ -205,3 +205,17 @@ veg_filtered <- get_chm_dif(veg_filtered)
 write.csv(veg_filtered,here('output',sitename,paste0('neon_trees_',sitename,'.csv')))
 ```
 
+### RGB imagery
+
+```{r}
+sitename <- 'BART'
+year <- '2019'
+veg_filtered <- read.csv(here('output',sitename,paste0('neon_trees_',sitename,'.csv')))
+
+byTileAOP(dpID="DP3.30010.001", site=sitename, 
+            year=year, easting=veg_filtered$easting_tree,
+            northing=veg_filtered$northing_tree,
+            buffer=20,
+            check.size=FALSE)
+```
+
