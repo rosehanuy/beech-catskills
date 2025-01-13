@@ -9,15 +9,17 @@ import geopandas as gpd
 
 
 class SentinelDownloader:
-    def __init__(self,year,boundary,epsg):
+    def __init__(self,year,boundary,epsg,drop):
         self.epsg = epsg
         self.year = year
         self.boundary = boundary
+        self.drop = drop
         self.cloud_masked_and_scaled = self.download_data()
         self.complete_data = xr.DataArray()
         self.missing_data = list()
         self.indices = xr.DataArray()
         self.indices2 = xr.DataArray()
+        
 
     def download_data(self):
         bbox_4326 = tuple(self.boundary.to_crs(4326).total_bounds)
@@ -59,7 +61,7 @@ class SentinelDownloader:
         else:
             scaled = masked / 10000
 
-        drop_duplicates = scaled.drop_duplicates(dim='time',keep='first')
+        drop_duplicates = scaled.drop_duplicates(dim='time',keep=self.drop)
             
         return drop_duplicates
 
