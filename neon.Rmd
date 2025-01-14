@@ -42,7 +42,7 @@ veg <- joinTableNEON(vst$vst_apparentindividual,
 
 # get plot locations
 plot_locs <- vst$vst_perplotperyear %>%
-    select(plotID, easting, northing) %>%
+    dplyr::select(plotID, easting, northing) %>%
     rename("easting_plot"=easting, "northing_plot"=northing) %>%
     group_by(plotID) %>%
     slice_head(n=1) %>%
@@ -59,7 +59,7 @@ veg_filtered <- veg %>% filter(grepl("Live", plantStatus)) %>%
     filter(!is.na(date.x)) %>%
     filter(height > 2) %>%
     # filter(date.x < ymd("2021-01-01")) %>%
-    select(plotID, individualID, adjEasting, adjNorthing, taxonID, height, ninetyCrownDiameter, canopyPosition, adjCoordinateUncertainty, utmZone) %>%
+    dplyr::select(plotID, individualID, adjEasting, adjNorthing, taxonID, height, stemDiameter, ninetyCrownDiameter, canopyPosition, adjCoordinateUncertainty, utmZone) %>%
     rename("easting_tree" = adjEasting, "northing_tree" = adjNorthing) %>%
     arrange(-height) %>%
     group_by(individualID) %>%
@@ -78,7 +78,7 @@ for (t in unique(veg_filtered$taxonID)){
 ```
 
 ```{r}
-write.csv(veg_filtered,'neon_trees_BART.csv')
+write.csv(veg_filtered,here('output','BART','neon_trees_BART.csv'))
 ```
 
 
