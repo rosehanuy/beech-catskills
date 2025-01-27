@@ -9,19 +9,20 @@ import geopandas as gpd
 
 
 class SentinelDownloader:
-    def __init__(self,year,boundary,epsg,drop):
+    def __init__(self,root,year,site_name,boundary,epsg):
+        self.root = root
+        self.site_name = site_name
         self.epsg = epsg
         self.year = year
         self.boundary = boundary
-        self.drop = drop
-        self.cloud_masked_and_scaled = self.download_data()
+        self.cloud_masked_and_scaled = xr.DataArray()
         self.complete_data = xr.DataArray()
         self.missing_data = list()
         self.indices = xr.DataArray()
         self.indices2 = xr.DataArray()
         
 
-    def download_data(self):
+    def download_data(self,drop):
         bbox_4326 = tuple(self.boundary.to_crs(4326).total_bounds)
         bbox_utm = tuple(self.boundary.total_bounds)
 
@@ -61,9 +62,9 @@ class SentinelDownloader:
         else:
             scaled = masked / 10000
 
-        drop_duplicates = scaled.drop_duplicates(dim='time',keep=self.drop)
+        drop_duplicates = scaled.drop_duplicates(dim='time',keep=drop)
             
-        return drop_duplicates
+        self.cloud_masked_and_scaled = drop_duplicates
 
     def plot_initial_data(self):
         self.cloud_masked_and_scaled.isel(band=3).plot(col='time',col_wrap=6,robust=True)
@@ -75,12 +76,12 @@ class SentinelDownloader:
     def plot_complete_data(self):
         self.complete_data.isel(band=3).plot(col='time',col_wrap=6,robust=True)
 
-    def save_bands_data(self,root,filename):
+    def save_bands_data(self):
         s = self.complete_data.reset_coords(drop=True)
-        s.to_netcdf(root / 'sentinel_data' / f'{filename}.nc')
+        s.to_netcdf(self.root / 'sentinel_data' / f'{self.year}_{self.site_name}.nc')
     
-    def save_vi_data(self,root,filename):
-        self.indices.to_netcdf(root / 'sentinel_data' / f'{filename}_indices.nc')
+    def save_vi_data(self):
+        self.indices.to_netcdf(self.root / 'sentinel_data' / f'{self.year}_{self.site_name}_indices.nc')
 
     def get_indices(self):
         blue = self.complete_data.sel(band='B02')
