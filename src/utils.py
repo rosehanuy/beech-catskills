@@ -52,8 +52,9 @@ class SentinelDownloader:
         print('number of low cloud images:',lowcloud.shape[0])
 
         scl_band = lowcloud.sel(band='SCL')
-        masked = lowcloud.where((scl_band != 9) & (scl_band !=3) & (scl_band !=8) & (scl_band != 10))
-
+        # saturated/defective, cloud shadows, water, cloud medium, cloud high, cirrus, snow
+        masked = lowcloud.where(~scl_band.isin([1, 3, 6, 8, 9, 10, 11]))
+        
         # drop SCL band
         masked = masked.drop_sel(band='SCL')
 
