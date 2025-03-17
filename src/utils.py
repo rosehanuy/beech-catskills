@@ -11,7 +11,7 @@ import geopandas as gpd
 class SentinelDownloader:
     def __init__(self,root,year,site_name,boundary,epsg):
         self.root = root
-        self.site_name = site_name
+        self.site_name = site_name  ## TODO: make dir for site if none exists; use full lowercase name not uppercase abrev
         self.epsg = epsg
         self.year = year
         self.boundary = boundary
