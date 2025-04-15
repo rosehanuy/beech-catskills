@@ -1,0 +1,1 @@
+{"clf_mlp_params": {"hidden_layer_sizes": 103, "max_fun": 100003, "max_iter": 10083, "activation": "relu", "solver": "adam", "alpha": 0.09}, "clf_xg_params": {"gamma": 0.0, "learning_rate": 0.13, "max_depth": 1, "n_estimators": 50, "reg_lambda": 0.5}}

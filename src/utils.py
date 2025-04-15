@@ -6,12 +6,14 @@ import rioxarray as rio
 import numpy as np
 import pandas as pd
 import geopandas as gpd
+import os
 
 
 class SentinelDownloader:
     def __init__(self,root,year,site_name,boundary,epsg):
         self.root = root
         self.site_name = site_name  ## TODO: make dir for site if none exists; use full lowercase name not uppercase abrev
+        os.makedirs(self.root / 'sentinel_data' / self.site_name,exist_ok=True)
         self.epsg = epsg
         self.year = year
         self.boundary = boundary
@@ -34,7 +36,7 @@ class SentinelDownloader:
         items = catalog.search(
             bbox=bbox_4326,
             collections=["sentinel-2-l2a"],
-            datetime=f"{self.year}-01-01/{self.year}-12-31"
+            datetime=f"{self.year}-05-01/{self.year}-10-31"
         ).item_collection()
         len(items)
 
@@ -79,10 +81,10 @@ class SentinelDownloader:
 
     def save_bands_data(self):
         s = self.complete_data.reset_coords(drop=True)
-        s.to_netcdf(self.root / 'sentinel_data' / f'{self.year}_{self.site_name}.nc')
+        s.to_netcdf(self.root / 'sentinel_data' / self.site_name / f'{self.year}_{self.site_name}.nc')
     
     def save_vi_data(self):
-        self.indices.to_netcdf(self.root / 'sentinel_data' / f'{self.year}_{self.site_name}_indices.nc')
+        self.indices.to_netcdf(self.root / 'sentinel_data' / self.site_name / f'{self.year}_{self.site_name}_indices.nc')
 
     def get_indices(self):
         blue = self.complete_data.sel(band='B02')

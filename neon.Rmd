@@ -26,9 +26,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
+max(veg$date.x,na.rm=T)
+```
+
+
+```{r}
 # vegetation survey
 vst <- loadByProduct(dpID="DP1.10098.001", 
-                     site="BART",
+                     site="HARV",
                      check.size=F)
 # get tree locations
 vst.loc <- getLocTOS(data=vst$vst_mappingandtagging,
@@ -78,7 +83,7 @@ for (t in unique(veg_filtered$taxonID)){
 ```
 
 ```{r}
-write.csv(veg_filtered,here('output','BART','neon_trees_BART.csv'))
+write.csv(veg_filtered,here('output','HARV','neon_trees_HARV.csv'))
 ```
 
 
