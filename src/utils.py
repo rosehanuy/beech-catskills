@@ -23,7 +23,8 @@ class SentinelDownloader:
         self.indices = xr.DataArray()
         self.indices2 = xr.DataArray()
         
-
+    # TODO: add logic to identify tiles overlapping with boundary; download imagery by tile
+    
     def download_data(self,drop):
         bbox_4326 = tuple(self.boundary.to_crs(4326).total_bounds)
         bbox_utm = tuple(self.boundary.total_bounds)
@@ -36,7 +37,7 @@ class SentinelDownloader:
         items = catalog.search(
             bbox=bbox_4326,
             collections=["sentinel-2-l2a"],
-            datetime=f"{self.year}-05-01/{self.year}-10-31"
+            datetime=f"{self.year}-03-01/{self.year}-12-31"
         ).item_collection()
         len(items)
 
